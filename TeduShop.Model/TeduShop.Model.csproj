@@ -49,6 +49,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\Auditable.cs" />
+    <Compile Include="Abstract\IAuditable.cs" />
+    <Compile Include="Modules\Footer.cs" />
+    <Compile Include="Modules\MenuGroup.cs" />
+    <Compile Include="Modules\Menu.cs" />
+    <Compile Include="Modules\Order.cs" />
+    <Compile Include="Modules\OrderDetail.cs" />
+    <Compile Include="Modules\Page.cs" />
+    <Compile Include="Modules\Post.cs" />
+    <Compile Include="Modules\PostCategory.cs" />
+    <Compile Include="Modules\PostTag.cs" />
+    <Compile Include="Modules\Product.cs" />
+    <Compile Include="Modules\ProductCategory.cs" />
+    <Compile Include="Modules\ProductTag.cs" />
+    <Compile Include="Modules\Slide.cs" />
+    <Compile Include="Modules\SupportOnline.cs" />
+    <Compile Include="Modules\SystemConfig.cs" />
+    <Compile Include="Modules\Tag.cs" />
+    <Compile Include="Modules\VisistorStatistic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -58,6 +77,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
